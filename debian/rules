@@ -11,3 +11,14 @@
 
 %:
 	dh $@ 
+
+DEB_HOST_ARCH           ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+
+ifeq ($(DEB_HOST_ARCH),amd64)
+	glibprefix=x86_64
+else
+	glibprefix=i386
+endif
+
+override_dh_auto_build:
+	cc -g sctpscan.c -o sctpscan -I /usr/include/glib-2.0/ -I /usr/lib/$(glibprefix)-linux-gnu/glib-2.0/include/ -lglib-2.0

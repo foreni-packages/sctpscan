@@ -1,18 +1,156 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: sctpscan
-Source: <url://example.com>
+Source: https://github.com/philpraxis/sctpscan
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: <special license>
- <Put the license of the package here indented by 1 space>
- <This follows the format of Description: lines in control file>
+Copyright: 2002 - 2009 Philippe Langlois
+License: EGPL
+  		    EXCEPTION GENERAL PUBLIC LICENSE
+ . 
+  		       Version 2, January 2009
+  			DRAFT 7 - FOR FEEDBACK AND COMMENTS
+ . 
+  Copyright (C) 2009 Exception License Foundation
  .
- <Including paragraphs>
+ Everybody is allowed to copy and distribute verbatim copies of this license
+ document, but modifying it in any way is not allowed.
+ .
+  			    Preamble
+ .
+ Licenses for most software and projects used to take away your freedom to
+ share and change them, until the "free" licenses were created. That enabled an 
+ enormous quantity of free software and open projects to be created, developed, 
+ maintained and expanded way beyond what one could have imagined in the 
+ beginning. Internet and the contemporary world would not be what it is without 
+ the contribution of so many people participating in the "Free, Libre and Open 
+ Source" movement (FLOSS) as some have described it.
+ .
+ The original goal of FLOSS is a success, and now using and developing Open
+ Source projects is a mark of smart thinking. In a perfect world, that would be
+ a great common goal to use and change software freely, and collaborate in
+ order to make the world more open and more diverse. In a perfect world, you
+ wouldn't need an Exception License. We hope that this Exception License will
+ be a sufficient message so that no further abuse are done, and be used more as
+ an "art project example" or "theoretical or philosophical tool" for critical
+ study of Open Source than a real license used in the real world. Sadly, we
+ don't live in a perfect world and some uses are seen by the original Open
+ Source Developers as abuses of their Open Source projects.
+ .
+ Some military equipment are naturally using Open Source, for some weapon 
+ systems on ships and airplanes. Some missile may actually be running Linux. 
+ Some open source database may be used to track population for ethnic 
+ cleansing. Also, on a less dramatic but even more real note, some of the 
+ people using Open Source are actually working to make it impossible to develop 
+ through DRM, software patents, lobbying or Internet censorship.
+ .
+ Using Free, Libre and Open Source Software for some socially negative 
+ activities can be seen as an unfair use of a tool for openness and justice. 
+ The social cost of these negative activities is not covered by the people 
+ committing such negative actions. Worse, Open Source software used for such 
+ negative goals is indeed helping such negative projects, often against the own 
+ will of the project developers, creators, maintainers and of the whole 
+ community. The eGPL can be seen as a way to redistribute the social and human 
+ cost of negative actions back to the original perpetrators of such negative  
+ actions.
+ .
+ The goal of this license is then to enable the Open Source developers to 
+ choose that their project be covered by an Open Source license, and yet retain 
+ the right to exclude some entities from the right of using or modifying this 
+ software under this license. In such case, the concerned entities should 
+ request another licensing scheme from these Open Source developers in order to 
+ use the software. The project team can define groups of Exceptions for its 
+ project, and can even subscribe to "feeds" of exceptions that will define in  
+ time the group of entities that cannot use the project under eGPL. These feeds 
+ can be written by Non-Governmental Organization who know which entities have a 
+ detrimental social and human impact. By having such list written, that can 
+ help reducing the number of entities with detrimental effect on people and 
+ societies, giving them strong incentives to cease negative actions.
+ .
+ Of course, the eGPL itself could be used as a tool in order to exclude 
+ entities that do not have any negative impact. As a result, a few restrictions 
+ apply to the eGPL. For example, you cannot define Exceptions on a specific 
+ person or on an ethnic group. You can however define an Exception for a 
+ Country or a Geographic region. Another condition is that the eGPL itself is 
+ place under eGPL, creating the first recursive license known to us. The 
+ Exception License Foundation will then pay attention to the use of the License 
+ and revoke the right of using such license for a given project when abuse of 
+ the original intent of the eGPL would be witnessed. For example, one could not 
+ agree with an Exception that would prevent "All peace organizations of the 
+ world" to use one particular Open Source project.
+ .
+ We protect your rights with three steps: (1) copyright the project or 
+ software, (2) propose this license which gives legal permission to copy, 
+ distribute and/or modify the software or project, (3) enable you to define for 
+ your own project the list of exceptions, that is of entities that cannot use 
+ this license and should seek another license for this project.
+ .
+ As with any Open Source license, there is no warranty for this free software. 
+ If the software is modified by anyone else and then shared, the recipients 
+ have to be aware that what they have is not the genuine, original software, so 
+ that any issue due to someone else should not affect the original authors' 
+ reputation. Also, people modifying the original project must be aware that 
+ they cannot introduce new Exceptions, and that their Exception list is Exactly 
+ the same as the original project. The reason behind this is that it would be 
+ otherwise very easy for someone to take a project and slightly modify it, 
+ create a new project, and then remove all the Exceptions from the new project, 
+ therefore breaking the original authors intent.
+ .
+ Finally, as with traditional Open Source License, we state again the obvious 
+ that all patents affecting a project or software must be licensed for 
+ everyone's free use or not licensed at all .
+.
+ Exceptions:
+ Exception List
+ Exception Feeds:
+ nonMIL: This license excludes all military entities and their suppliers from usage of the license.
+ .
+     All military and army organization, groups, squadrons or any definition of such armed force
+     All commercial suppliers to all military and army organization, including public and private ones
+     Ministere de la Défense, France.
+     All weapon, bombs, tanks, war jets and mines manufacturers
+     All intelligence agencies working partly or completely in conjunction with army or military powers
+ . 
+ SoftwarePatents: Exception on any groups that advocates or promote Software Patents
+ .
+     All commercial entities endorsing Software Patents
+     All lobbying agencies working to promote, defend, advocate, communicate on the advantages of Software Patents
+     All the Patent Offices that currently accept software patents filings
+ .
+ GMOwild: All the organization promoting the culture and farming of Genetically Modified Organisms in the wild.
+ .
+     All the organization promoting the culture and farming of Genetically Modified Organisms in the wild.
+     Any company being part of Monsanto group, in any country.
+     Any laboratory, public or private, receiving more than 10% of its yearly budget from any of the organization mentionned in this list.
+ .
+ CompanyBiggerThan20: Any company, commercial entity that has more than 20 (twenty) employees, contributors, interns or consultant, temporary or permanent.
+ .
+     Any company, commercial entity that has more than 20 (twenty) employees, contributors, interns or consultant, temporary or permanent.
+ .
+ contreHADOPI: Exception for any organization that supports HADOPI legislation to monitor and block the net based on non-existing "evidences". /// Exceptions de toutes les organisations qui supportent HADOPI (loi de surveillance, flicage, blocage d'Internet basé sur des preuves non-existantes).
+ .
+     Any organization supporting HADOPI law.
+     Any part of the French government.
+     The UMP french party that proposed and supports the HADOPI law.
+     Any record label or major company that supports HADOPI.
+     DigiCompanion which supports HADOPI http://www.digicompanion.com/
+     SACEM http://www.sacem.fr/
+     NOKIA group companies, worldwide and any company with participation from Nokia Group of at least 10 percent
+     UNAC - Union Nationale des Auteurs et Compositeurs
+     SDLC - Syndicats des Distributeurs de Loisirs Culturels
+     EuropaCorp (Société de Luc Besson qui soutient HADOPI) http://www.europacorp.com/
+     CSDEM - Chambre Syndicale de l’Edition Musicale
+     SNAC, Syndicat National des Auteurs et des Compositeurs
+     UPFI - Union des Producteurs Phonographiques Français Indépendants http://www.upfi.fr/
+     SPPF - Société Civile des Producteurs de Phonogrammes en France http://www.sppf.com/
+     SNEP Syndicat National de l'Édition Phonographique
+     SCPP - Société Civile des Producteurs Phonographiques http://www.scpp.fr/SCPP/
+     SPPAM Syndicat des Producteurs de Programmes Audiovisuels et Musicaux
+     TF1 - http://www.tf1.fr/tf1-et-vous/reponse-a-vos-questions/bonjour-pouvez-vous-expliquer-le-licenciement-de-mr-jerome -bourreau-4406123.html
+    Arthur H - chanteur pro-HADOPI
+    Advestigo - http://www.advestigo.com/french/products-services-/products-servers/overview/overview/id-menu-79.html
+    Extelia - http://www.extelia.fr/
+    TMG
 
-# If you want to use GPL v2 or later for the /debian/* files use 
-# the following clauses, or change it to suit. Delete these two lines
 Files: debian/*
 Copyright: 2013 Devon Kearns <dookie@kali.org>
 License: GPL-2+
@@ -31,8 +169,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid to pick license terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
