@@ -1,3 +1,9 @@
+sctpscan (0.1-1kali1) kali; urgency=low
+
+  * Changed the control file arch to i386 amd64
+
+ -- Devon Kearns <dookie@kali.org>  Sat, 09 Feb 2013 12:57:02 -0700
+
 sctpscan (0.1-1kali) kali; urgency=low
 
   * Initial release 
