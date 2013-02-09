@@ -1,0 +1,5 @@
+sctpscan (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Devon Kearns <dookie@kali.org>  Sat, 09 Feb 2013 12:16:45 -0700
