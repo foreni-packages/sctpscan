@@ -9,7 +9,7 @@ Vcs-Git: ssh://git@git.kali.org/packages/sctpscan.git
 Vcs-Browser: http://git.kali.org/gitweb/?p=packages/sctpscan.git;a=summary
 
 Package: sctpscan
-Architecture: any
+Architecture: i386 amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: SCTP network scanner for discovery and security
  SCTP network scanner for discovery and security
